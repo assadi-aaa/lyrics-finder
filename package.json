@@ -1,0 +1,29 @@
+{
+  "name": "lyrics-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "start": "nodemon app.js",
+    "lint": "eslint ./ --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "nconf": "^0.10.0"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^7.1.1",
+    "express": "^4.17.1",
+    "nodemon": "^1.18.9",
+    "mocha": "^6.2.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.10.0",
+    "sinon": "^7.5.0",
+    "nyc": "^14.1.1",
+    "proxyquire": "^2.1.3"
+  }
+}
